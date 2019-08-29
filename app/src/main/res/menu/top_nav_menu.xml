@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/language_setting"
+        android:title="@string/language_setting"/>
+
+    <item
+        android:id="@+id/reminder_setting"
+        android:title="@string/reminder_setting"/>
+</menu>

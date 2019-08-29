@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie Catalogue Favorite</string>
+
+    <string name="tab_movie">Movie</string>
+    <string name="tab_tv_show">TV Show</string>
+
+    <string name="language_setting">Change Language</string>
+
+    <string name="detail_overview">Overview</string>
+    <string name="detail_release_date">Release Date: </string>
+    <string name="no_overview">No Overview.</string>
+
+    <string name="add_succeed">Added to favorite.</string>
+    <string name="add_failed">Failed to add favorite.</string>
+    <string name="remove_succeed">Removed from favorite.</string>
+    <string name="remove_failed">Failed to remove favorite.</string>
+
+    <string name="no_saved_movie">No Saved Movie.</string>
+    <string name="no_saved_tv_show">No Saved TV Show.</string>
+</resources>

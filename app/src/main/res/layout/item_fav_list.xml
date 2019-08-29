@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/margin_5"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_fav_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_2">
+
+        <ImageView
+            android:id="@+id/img_fav_poster"
+            android:layout_width="@dimen/img_x3"
+            android:layout_height="@dimen/img_y3"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_3">
+
+            <TextView
+                android:id="@+id/tv_fav_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="[NAME]"
+                android:textSize="@dimen/text_3"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:paddingBottom="@dimen/margin_3"/>
+
+            <TextView
+                android:id="@+id/tv_fav_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="[OVERVIEW]"
+                android:textSize="14sp"
+                android:maxLines="4"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

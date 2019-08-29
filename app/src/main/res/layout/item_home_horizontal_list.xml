@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/img_x1"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/margin_3"
+    android:paddingRight="@dimen/margin_3"
+    android:layout_margin="@dimen/margin_5"
+    android:id="@+id/cv_now_playing_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_5">
+
+        <ImageView
+            android:id="@+id/img_now_playing_poster"
+            android:layout_width="@dimen/img_x1"
+            android:layout_height="@dimen/img_y1"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tv_now_playing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="[NAME]"
+            android:textSize="@dimen/text_4"
+            android:textColor="@color/colorBlack"
+            android:paddingTop="@dimen/margin_6"
+            android:layout_gravity="center_horizontal"/>
+        
+        <TextView
+            android:id="@+id/tv_now_playing_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="[RATING]"
+            android:textSize="@dimen/text_6"
+            android:drawableLeft="@drawable/ic_star_black_24dp"
+            android:drawableTint="@color/colorYellow"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

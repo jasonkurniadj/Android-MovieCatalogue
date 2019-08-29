@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="img_x1">175dp</dimen>
+    <dimen name="img_x2">145dp</dimen>
+    <dimen name="img_x3">115dp</dimen>
+
+    <dimen name="img_y1">250dp</dimen>
+    <dimen name="img_y2">200dp</dimen>
+    <dimen name="img_y3">150dp</dimen>
+
+    <dimen name="clear_space_1">75dp</dimen>
+
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_1">20dp</dimen>
+    <dimen name="margin_2">16dp</dimen>
+    <dimen name="margin_3">11dp</dimen>
+    <dimen name="margin_5">4dp</dimen>
+    <dimen name="margin_6">3dp</dimen>
+
+    <dimen name="text_2">24sp</dimen>
+    <dimen name="text_3">21sp</dimen>
+    <dimen name="text_4">19sp</dimen>
+    <dimen name="text_5">16sp</dimen>
+    <dimen name="text_6">14sp</dimen>
+</resources>

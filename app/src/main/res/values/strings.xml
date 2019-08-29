@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_movie">Movie</string>
+    <string name="tab_tv_show">TV Show</string>
+    <string name="tab_favorite">Favorite</string>
+
+    <string name="no_internet">Error, please check your internet connection and try again!</string>
+
+    <string name="title_now_playing">Now Playing</string>
+    <string name="title_release">Today Release</string>
+    <string name="title_popular_tv_show">Popular TV Show</string>
+
+    <string name="detail_overview">Overview</string>
+    <string name="detail_release_date">Release Date: </string>
+    <string name="no_overview">No Overview.</string>
+
+    <string name="language_setting">Change Language</string>
+    <string name="reminder_setting">Reminder Setting</string>
+
+    <string name="add_succeed">Added to favorite.</string>
+    <string name="add_failed">Failed to add favorite.</string>
+    <string name="remove_succeed">Removed from favorite.</string>
+    <string name="remove_failed">Failed to remove favorite.</string>
+
+    <string name="search_here">Search..</string>
+
+    <string name="daily_notification_sub_title">Daily notification</string>
+    <string name="daily_notification_title">Good morning!</string>
+    <string name="daily_notification_content">It\'s time to explore movie &amp; TV Show..</string>
+
+    <string name="release_notification_control_title">Release notification</string>
+    <string name="release_notification_sub_title">%1$d release movies</string>
+    <string name="release_notification_title">NEW RELEASE MOVIES!!!</string>
+    <string name="release_notification_content">See new release movies..</string>
+
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <string name="daily_notification_on">Set daily notification.</string>
+    <string name="daily_notification_off">Cancel daily notification.</string>
+    <string name="release_notification_on">Set release notification.</string>
+    <string name="release_notification_off">Cancel release notification.</string>
+
+    <string name="appwidget_text">Movie Catalogue</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="WebViewLayout">
+
+        <ImageView
+            android:id="@+id/img_poster"
+            android:layout_width="@dimen/img_x2"
+            android:layout_height="@dimen/img_y2"
+            android:layout_marginStart="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_1"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_2"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintLeft_toRightOf="@id/img_poster"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="[NAME]" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_5"
+            android:drawableLeft="@drawable/ic_star_black_24dp"
+            android:drawableTint="@color/colorYellow"
+            android:textSize="@dimen/text_5"
+            app:layout_constraintStart_toEndOf="@+id/img_poster"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            tools:text="[RATING]" />
+
+        <ImageButton
+            android:id="@+id/ib_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_5"
+            android:background="@android:color/transparent"
+            android:tint="@color/colorAccent"
+            app:layout_constraintStart_toEndOf="@+id/img_poster"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rating"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_1"
+            android:text="@string/detail_release_date"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_poster" />
+
+        <TextView
+            android:id="@+id/tv_date_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_1"
+            android:textSize="@dimen/text_4"
+            app:layout_constraintStart_toEndOf="@+id/tv_date_title"
+            app:layout_constraintTop_toBottomOf="@+id/img_poster"
+            tools:text="[RELEASE DATE]" />
+
+        <TextView
+            android:id="@+id/tv_overview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_3"
+            android:text="@string/detail_overview"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date_title" />
+
+        <TextView
+            android:id="@+id/tv_overview_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginEnd="@dimen/margin_2"
+            android:layout_marginBottom="@dimen/clear_space_1"
+            tools:text="[OVERVIEW]"
+            android:textSize="@dimen/text_5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_overview_title"
+            app:layout_constraintVertical_bias="0.0"/>
+
+        <!--<WebView-->
+            <!--android:id="@+id/wv_trailer"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="225dp"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/tv_overview_content" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

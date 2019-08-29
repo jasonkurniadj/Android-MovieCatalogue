@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+
+    <string name="tab_home">Halaman Depan</string>
+    <string name="tab_movie">Film</string>
+    <string name="tab_tv_show">Acara TV</string>
+    <string name="tab_favorite">Favorit</string>
+
+    <string name="no_internet">Error, silahkan cek koneksi internet dan coba kembali!</string>
+
+    <string name="title_now_playing">Now Playing</string>
+    <string name="title_release">Today Release</string>
+    <string name="title_popular_tv_show">Popular TV Show</string>
+
+    <string name="detail_overview">Sinopsis</string>
+    <string name="detail_release_date">Tanggal Rilis: </string>
+    <string name="no_overview">Sinopsis tidak tersedia.</string>
+
+    <string name="language_setting">Ganti Bahasa</string>
+    <string name="reminder_setting">Pengaturan Notifikasi</string>
+
+    <string name="add_succeed">Sukses menambahkan ke favorit.</string>
+    <string name="add_failed">Gagal menambahkan ke favorit.</string>
+    <string name="remove_succeed">Sukses menghapus dari favorit.</string>
+    <string name="remove_failed">Gagal menghapus dari favorit.</string>
+
+    <string name="search_here">Cari..</string>
+
+    <string name="daily_notification_sub_title">Notifikasi harian</string>
+    <string name="daily_notification_title">Selamat pagi!</string>
+    <string name="daily_notification_content">Saatnya menjelajah film &amp; acara TV..</string>
+
+    <string name="release_notification_control_title">Notifikasi film rilis</string>
+    <string name="release_notification_sub_title">%1$d release movies</string>
+    <string name="release_notification_title">FILM BARU!!!</string>
+    <string name="release_notification_content">Liat film baru..</string>
+
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <string name="daily_notification_on">Menambahkan notifikasi harian.</string>
+    <string name="daily_notification_off">Menghapus notifikasi harian.</string>
+    <string name="release_notification_on">Menambahkan notifikasi rilis.</string>
+    <string name="release_notification_off">Menghapus notifikasi rilis.</string>
+
+    <string name="appwidget_text">Movie Catalogue</string>
+</resources>

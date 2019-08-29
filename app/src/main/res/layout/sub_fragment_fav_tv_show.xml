@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.subFragment.FavTvShowSubFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_fav_tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_fav_list"
+        android:paddingLeft="@dimen/margin_3"
+        android:paddingRight="@dimen/margin_3"/>
+
+</FrameLayout>
